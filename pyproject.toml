@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "nodeenergy-report-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.73.0"
+uvicorn = "^0.17.4"
+pydantic = "^1.9.0"
+pdfannots = "^0.3"
+python-multipart = "^0.0.5"
+PyPDF2 = "^1.26.0"
+requests = "^2.27.1"
+pre-commit = "^2.17.0"
+SQLAlchemy = "^1.4.32"
+passlib = "^1.7.4"
+psycopg2 = "^2.9.3"
+python-jose = "^3.3.0"
+jose = "^1.0.0"
+email-validator = "^1.1.3"
+gunicorn = "^20.1.0"
+uvloop = "^0.16.0"
+httptools = "^0.4.0"
+SQLAlchemy-Utils = "^0.38.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+black = "^22.1.0"
+flake8 = "^4.0.1"
+pre-commit = "^2.17.0"
+isort = "^5.10.1"
+flake8-isort = "^4.1.1"
+"pdfminer.six" = "^20211012"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
