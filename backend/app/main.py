@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 
-@app.get("/FastAPI/health", status_code=status.HTTP_200_OK)
+@app.get("/health", status_code=status.HTTP_200_OK)
 def healthy_condition():
     return {"status": "Ok"}
 
